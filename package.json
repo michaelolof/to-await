@@ -1,0 +1,17 @@
+{
+  "name": "to-await",
+  "version": "0.1.5",
+  "description": "A simple library that extends the functionality of the Promise object allowing you to handle errors with async/await more intuitively.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asyn/await",
+    "erorr handling",
+    "promises"
+  ],
+  "author": "michaelolof",
+  "license": "MIT"
+}
