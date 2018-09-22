@@ -15,8 +15,8 @@ We can first define a module class
 ```
 import to from 'await-to';
 
-const [file, err] = await to( asyncFileRead("file.txt") )
-if( err ) {
+const file = await to( asyncFileRead("file.txt") )
+if( file instanceof Error ) {
   throw new Error("Error occured while reading files").stack
 }
 console.log( file );
